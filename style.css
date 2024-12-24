@@ -88,3 +88,8 @@ article p {
 article:nth-of-type(even) {
     background-color: #c2e20d;
 }
+
+article h2.new::before {
+    content: "New ";
+    color: red;
+}
