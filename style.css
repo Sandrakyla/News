@@ -84,3 +84,7 @@ article p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
+
+article:nth-of-type(even) {
+    background-color: #c2e20d;
+}
